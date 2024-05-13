@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>CIT tree_3 layers</title>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<style>
+#container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: grab;
+}
+#content {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#canvas {
+    width: 4000px;  /* 修改为100%以使其响应式*/
+    height: 2000px; /* 确保SVG占满整个容器*/
+}
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+</style>
+</head>
+<body>
+<div id="container">
+	<div id="content">
+		<div id="canvas"></div>
+	</div>
+</div>
+<script>
+	var width = document.documentElement.clientWidth;
+	var height = document.documentElement.clientHeight;
+	var radius = Math.min(width, height) / 2;
+	var tree = d3.tree()
+		.size([2 * Math.PI, radius])
+		.separation((a, b) => (a.parent == b.parent ? 1 : 2) + (a.data.value + b.data.value) / 2000);
+
+	var colorScale = d3.scaleOrdinal()
+	    .domain(["Nature", "Human Being", "Society and Culture", "Religion", "Myths and Legends", "History and Geography", "Literary Works"])  // Branch names
+	    .range(["#48c0a3","#f47983","#fff143","#177cb0","#6a6834", "#e7693f", "#a22076"]);  // Color palette
+
+	function getColor(d) {
+		if (d.depth === 1) {
+			return colorScale(d.data.name);
+		} else if (d.depth === 2) {
+			return d3.color(colorScale(d.parent.data.name)).brighter(0.5);
+		} else if (d.depth > 2) {
+			return d3.color(colorScale(d.parent.parent.data.name)).brighter(0.75);
+		} else {
+			return "#555";
+		}
+	}
+
+	fetch('translated_tree_data.json')
+	    .then(response => response.json())
+	    .then(data => {
+	        const root = d3.hierarchy(data);
+	        tree(root);
+
+	        const svg = d3.select("#canvas").append("svg")
+	            .attr("viewBox", [-width / 2, -height / 2, width * 1.5, height * 1.5])
+	            .style("width", "100%")
+	            .style("height", "100%");
+
+	        const g = svg.append("g")
+	            .attr("transform", `translate(${width / 2},${height / 2})`);
+
+	        const zoom = d3.zoom()
+	            .scaleExtent([0.1, 10])
+	            .on("zoom", (event) => {
+	                g.attr("transform", event.transform);
+	            });
+
+	        svg.call(zoom);
+
+	        g.append("g")
+	          .attr("fill", "none")
+	          .attr("stroke", "#555")
+	          .attr("stroke-opacity", 0.2)
+	          .selectAll("path")
+	          .data(root.links())
+	          .join("path")
+	            .attr("stroke-width", 2)
+	            .attr("d", d3.linkRadial()
+	                .angle(d => d.x)
+	                .radius(d => d.y));
+
+	        g.append("g")
+	          .selectAll("circle")
+	          .data(root.descendants())
+	          .join("circle")
+	            .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
+	            .attr("fill", getColor)
+	            .attr("r", d => 2 + d.data.value / 100);
+
+	        g.append("g")
+	          .attr("font-family", "sans-serif")
+	          .attr("stroke-linejoin", "round")
+	          .attr("stroke-width", 1)
+	          .selectAll("text")
+	          .data(root.descendants())
+	          .join("text")
+	            .attr("font-size", d => 10 + 15 / (1 + d.depth))
+	            // set text location
+					.attr("transform", d => `
+					rotate(${d.x * 180 / Math.PI - 90})
+					translate(${d.y},0)
+					rotate(${d.x >= Math.PI ? 180 : 0})
+					`)
+					.attr("dy", d => {
+						if (d.depth === 1) {
+							return "0.31em"; // The first layer stays in place
+						} else if (d.depth === 2) {
+							return "1em"; // The second layer moves down 1em
+						} else {
+							return "0.31em"; // Other layers remain in place
+						}
+						})
+					.attr("x", d => {
+					// For the first layer of nodes, the text is located in the centre of the node
+					if (d.depth === 1) {
+						return 0;
+					} else {
+						// For nodes at other levels, the right border of the text will be aligned to the x-coordinate
+						return d.x < Math.PI ? 6 : -6;
+					}
+					})
+	            .attr("text-anchor", d => {
+					// For the first layer of nodes, the text is centre-aligned
+					if (d.depth === 1 || d.depth === 2) {
+						return "middle";
+					} else {
+						// For nodes at other levels, the right border of the text will be aligned to the x-coordinate
+						return d.x < Math.PI ? "start" : "end";
+					}
+					})
+	            .text(d => d.data.name)
+	            .clone(true).lower()
+	            .attr("stroke", "white");
+	    })
+	    .catch(error => console.error('Error loading the data: ' + error));
+</script>
+</body>
+</html>

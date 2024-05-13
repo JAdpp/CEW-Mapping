@@ -1,0 +1,862 @@
+{
+    "name": "CIT",
+    "children": [
+        {
+            "name": "Human Being",
+            "children": [
+                {
+                    "name": "human body",
+                    "children": [
+                        {
+                            "name": "movement, posture, and gesture (human body)",
+                            "children": [],
+                            "value": 1897
+                        },
+                        {
+                            "name": "gender (human body)",
+                            "children": [],
+                            "value": 586
+                        },
+                        {
+                            "name": "hygiene (human body)",
+                            "children": [],
+                            "value": 9
+                        },
+                        {
+                            "name": "deformity (human body)",
+                            "children": [],
+                            "value": 6
+                        },
+                        {
+                            "name": "parts of the human body",
+                            "children": [],
+                            "value": 16
+                        },
+                        {
+                            "name": "facial expression (human body)",
+                            "children": [],
+                            "value": 1
+                        }
+                    ],
+                    "value": 2515
+                },
+                {
+                    "name": "human life",
+                    "children": [
+                        {
+                            "name": "age",
+                            "children": [],
+                            "value": 266
+                        },
+                        {
+                            "name": "death (human life)",
+                            "children": [],
+                            "value": 4
+                        }
+                    ],
+                    "value": 270
+                },
+                {
+                    "name": "speaking",
+                    "children": [
+                        {
+                            "name": "chat",
+                            "children": [],
+                            "value": 111
+                        }
+                    ],
+                    "value": 111
+                },
+                {
+                    "name": "human figure",
+                    "children": [
+                        {
+                            "name": "image of a deity",
+                            "children": [],
+                            "value": 32
+                        },
+                        {
+                            "name": "portrait",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 34
+                },
+                {
+                    "name": "consciousness",
+                    "children": [
+                        {
+                            "name": "resting (Human Being)",
+                            "children": [],
+                            "value": 5
+                        },
+                        {
+                            "name": "sleep (Human Being)",
+                            "children": [],
+                            "value": 3
+                        }
+                    ],
+                    "value": 8
+                },
+                {
+                    "name": "sense perception",
+                    "children": [
+                        {
+                            "name": "sight",
+                            "children": [],
+                            "value": 6
+                        }
+                    ],
+                    "value": 6
+                },
+                {
+                    "name": "conduct of life",
+                    "children": [
+                        {
+                            "name": "deception",
+                            "children": [],
+                            "value": 3
+                        }
+                    ],
+                    "value": 3
+                },
+                {
+                    "name": "desire",
+                    "children": [
+                        {
+                            "name": "sexual love",
+                            "children": [],
+                            "value": 6
+                        }
+                    ],
+                    "value": 6
+                }
+            ],
+            "value": 2953
+        },
+        {
+            "name": "Society and Culture",
+            "children": [
+                {
+                    "name": "basic necessities of life",
+                    "children": [
+                        {
+                            "name": "dress and personal adornment",
+                            "children": [],
+                            "value": 3554
+                        },
+                        {
+                            "name": "dwelling",
+                            "children": [],
+                            "value": 2607
+                        },
+                        {
+                            "name": "transport",
+                            "children": [],
+                            "value": 1223
+                        },
+                        {
+                            "name": "diet",
+                            "children": [],
+                            "value": 635
+                        }
+                    ],
+                    "value": 8019
+                },
+                {
+                    "name": "economy",
+                    "children": [
+                        {
+                            "name": "crafts and industries",
+                            "children": [],
+                            "value": 735
+                        },
+                        {
+                            "name": "commerce and trade",
+                            "children": [],
+                            "value": 376
+                        },
+                        {
+                            "name": "agriculture, forestry, animal husbandry, and fishing",
+                            "children": [],
+                            "value": 243
+                        }
+                    ],
+                    "value": 1354
+                },
+                {
+                    "name": "society",
+                    "children": [
+                        {
+                            "name": "social stratification",
+                            "children": [],
+                            "value": 508
+                        },
+                        {
+                            "name": "social relationship",
+                            "children": [],
+                            "value": 28
+                        },
+                        {
+                            "name": "social interaction",
+                            "children": [],
+                            "value": 7
+                        }
+                    ],
+                    "value": 543
+                },
+                {
+                    "name": "politics",
+                    "children": [
+                        {
+                            "name": "government",
+                            "children": [],
+                            "value": 163
+                        },
+                        {
+                            "name": "official procession",
+                            "children": [],
+                            "value": 109
+                        },
+                        {
+                            "name": "monarch",
+                            "children": [],
+                            "value": 27
+                        },
+                        {
+                            "name": "citizen",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 301
+                },
+                {
+                    "name": "festival celebration",
+                    "children": [
+                        {
+                            "name": "joy of fish",
+                            "children": [],
+                            "value": 251
+                        },
+                        {
+                            "name": "festival celebration",
+                            "children": [],
+                            "value": 37
+                        }
+                    ],
+                    "value": 288
+                },
+                {
+                    "name": "military affairs",
+                    "children": [
+                        {
+                            "name": "outfit",
+                            "children": [],
+                            "value": 256
+                        },
+                        {
+                            "name": "military administrative divisions",
+                            "children": [],
+                            "value": 45
+                        },
+                        {
+                            "name": "divisions of armed forces",
+                            "children": [],
+                            "value": 3
+                        },
+                        {
+                            "name": "war",
+                            "children": [],
+                            "value": 4
+                        },
+                        {
+                            "name": "military training",
+                            "children": [],
+                            "value": 2
+                        },
+                        {
+                            "name": "military engineering",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 312
+                },
+                {
+                    "name": "art",
+                    "children": [
+                        {
+                            "name": "music",
+                            "children": [],
+                            "value": 272
+                        },
+                        {
+                            "name": "calligraphy and painting",
+                            "children": [],
+                            "value": 181
+                        },
+                        {
+                            "name": "opera",
+                            "children": [],
+                            "value": 40
+                        },
+                        {
+                            "name": "folk vocal art forms",
+                            "children": [],
+                            "value": 12
+                        },
+                        {
+                            "name": "decorative art",
+                            "children": [],
+                            "value": 13
+                        },
+                        {
+                            "name": "sculpture",
+                            "children": [],
+                            "value": 4
+                        },
+                        {
+                            "name": "seal carving",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 524
+                },
+                {
+                    "name": "household",
+                    "children": [
+                        {
+                            "name": "funeral",
+                            "children": [],
+                            "value": 42
+                        },
+                        {
+                            "name": "marriage",
+                            "children": [],
+                            "value": 13
+                        },
+                        {
+                            "name": "family relationship",
+                            "children": [],
+                            "value": 11
+                        },
+                        {
+                            "name": "property",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "household duty",
+                            "children": [],
+                            "value": 1
+                        }
+                    ],
+                    "value": 122
+                },
+                {
+                    "name": "law",
+                    "children": [
+                        {
+                            "name": "corporal punishment",
+                            "children": [],
+                            "value": 114
+                        },
+                        {
+                            "name": "criminal",
+                            "children": [],
+                            "value": 46
+                        },
+                        {
+                            "name": "criminal act",
+                            "children": [],
+                            "value": 4
+                        },
+                        {
+                            "name": "escorting criminals or captives",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 166
+                },
+                {
+                    "name": "education",
+                    "children": [
+                        {
+                            "name": "books",
+                            "children": [],
+                            "value": 35
+                        },
+                        {
+                            "name": "reading",
+                            "children": [],
+                            "value": 10
+                        },
+                        {
+                            "name": "school",
+                            "children": [],
+                            "value": 4
+                        }
+                    ],
+                    "value": 49
+                },
+                {
+                    "name": "scientific knowledge",
+                    "children": [
+                        {
+                            "name": "mathematics",
+                            "children": [],
+                            "value": 28
+                        },
+                        {
+                            "name": "medical science",
+                            "children": [],
+                            "value": 63
+                        }
+                    ],
+                    "value": 91
+                },
+                {
+                    "name": "magic",
+                    "children": [
+                        {
+                            "name": "physiognomy",
+                            "children": [],
+                            "value": 4
+                        },
+                        {
+                            "name": "divination",
+                            "children": [],
+                            "value": 7
+                        },
+                        {
+                            "name": "cornucopia",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "master of methods",
+                            "children": [],
+                            "value": 1
+                        }
+                    ],
+                    "value": 13
+                }
+            ],
+            "value": 11782
+        },
+        {
+            "name": "Nature",
+            "children": [
+                {
+                    "name": "living thing",
+                    "children": [
+                        {
+                            "name": "Plantae",
+                            "children": [],
+                            "value": 3628
+                        },
+                        {
+                            "name": "Animalia",
+                            "children": [],
+                            "value": 489
+                        }
+                    ],
+                    "value": 4117
+                },
+                {
+                    "name": "light",
+                    "children": [
+                        {
+                            "name": "shadow",
+                            "children": [],
+                            "value": 307
+                        },
+                        {
+                            "name": "reflected image",
+                            "children": [],
+                            "value": 17
+                        }
+                    ],
+                    "value": 324
+                },
+                {
+                    "name": "heaven",
+                    "children": [
+                        {
+                            "name": "sky",
+                            "children": [],
+                            "value": 83
+                        },
+                        {
+                            "name": "weather",
+                            "children": [],
+                            "value": 39
+                        },
+                        {
+                            "name": "celestial body",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 124
+                },
+                {
+                    "name": "land",
+                    "children": [
+                        {
+                            "name": "dry land",
+                            "children": [],
+                            "value": 95
+                        },
+                        {
+                            "name": "body of water",
+                            "children": [],
+                            "value": 47
+                        }
+                    ],
+                    "value": 142
+                },
+                {
+                    "name": "nature (general)",
+                    "children": [
+                        {
+                            "name": "Five Phases",
+                            "children": [],
+                            "value": 30
+                        }
+                    ],
+                    "value": 30
+                },
+                {
+                    "name": "time",
+                    "children": [
+                        {
+                            "name": "day and double hour",
+                            "children": [],
+                            "value": 9
+                        },
+                        {
+                            "name": "season",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "timepiece that announces correct time",
+                            "children": [],
+                            "value": 1
+                        }
+                    ],
+                    "value": 11
+                }
+            ],
+            "value": 4748
+        },
+        {
+            "name": "Religion",
+            "children": [
+                {
+                    "name": "popular religion",
+                    "children": [
+                        {
+                            "name": "deity (popular religion)",
+                            "children": [],
+                            "value": 111
+                        },
+                        {
+                            "name": "ghost, the returning spirit of the dead person",
+                            "children": [],
+                            "value": 46
+                        },
+                        {
+                            "name": "rite (popular religion)",
+                            "children": [],
+                            "value": 17
+                        },
+                        {
+                            "name": "flower spirits",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 176
+                },
+                {
+                    "name": "Buddhism",
+                    "children": [
+                        {
+                            "name": "rite (Buddhism)",
+                            "children": [],
+                            "value": 32
+                        },
+                        {
+                            "name": "organization (Buddhism)",
+                            "children": [],
+                            "value": 15
+                        },
+                        {
+                            "name": "teaching and spiritual life (Buddhism)",
+                            "children": [],
+                            "value": 7
+                        },
+                        {
+                            "name": "Great Being",
+                            "children": [],
+                            "value": 7
+                        },
+                        {
+                            "name": "buddha",
+                            "children": [],
+                            "value": 3
+                        },
+                        {
+                            "name": "arhat",
+                            "children": [],
+                            "value": 3
+                        },
+                        {
+                            "name": "dharma protector",
+                            "children": [],
+                            "value": 2
+                        },
+                        {
+                            "name": "sutra story",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "Buddhist scriptures and texts",
+                            "children": [],
+                            "value": 1
+                        }
+                    ],
+                    "value": 71
+                },
+                {
+                    "name": "Confucianism",
+                    "children": [
+                        {
+                            "name": "doctrine (Confucianism)",
+                            "children": [],
+                            "value": 6
+                        },
+                        {
+                            "name": "sacrificial ceremony (Confucianism)",
+                            "children": [],
+                            "value": 7
+                        },
+                        {
+                            "name": "scriptures and texts of Confucianism",
+                            "children": [],
+                            "value": 7
+                        }
+                    ],
+                    "value": 20
+                },
+                {
+                    "name": "Teachings of the Way",
+                    "children": [
+                        {
+                            "name": "organization (Daoism)",
+                            "children": [],
+                            "value": 6
+                        },
+                        {
+                            "name": "Daoist deity",
+                            "children": [],
+                            "value": 13
+                        },
+                        {
+                            "name": "Daoist immortal",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 21
+                }
+            ],
+            "value": 288
+        },
+        {
+            "name": "Literary Works",
+            "children": [
+                {
+                    "name": "literary work (Sui, Tang, Five Dynasties)",
+                    "children": [
+                        {
+                            "name": "Tang poetic concept",
+                            "children": [],
+                            "value": 36
+                        }
+                    ],
+                    "value": 36
+                },
+                {
+                    "name": "character (literary works)",
+                    "children": [
+                        {
+                            "name": "General Heng and General Ha",
+                            "children": [],
+                            "value": 2
+                        },
+                        {
+                            "name": "Huang Feihu",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "Shen Gongbao",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "Zhou Cang",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "Leizhenzi",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "Tu Xingsun",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "Fang Bi",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "Fang Xiang",
+                            "children": [],
+                            "value": 1
+                        }
+                    ],
+                    "value": 9
+                },
+                {
+                    "name": "literary work (pre-Qin)",
+                    "children": [
+                        {
+                            "name": "The Zhuangzi",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 2
+                },
+                {
+                    "name": "equipment (literary work)",
+                    "children": [
+                        {
+                            "name": "magic weapon",
+                            "children": [],
+                            "value": 1
+                        }
+                    ],
+                    "value": 1
+                }
+            ],
+            "value": 48
+        },
+        {
+            "name": "History and Geography",
+            "children": [
+                {
+                    "name": "history",
+                    "children": [
+                        {
+                            "name": "person (history)",
+                            "children": [],
+                            "value": 23
+                        },
+                        {
+                            "name": "ethnic group (history)",
+                            "children": [],
+                            "value": 2
+                        }
+                    ],
+                    "value": 25
+                },
+                {
+                    "name": "geography",
+                    "children": [
+                        {
+                            "name": "foreign country (geography)",
+                            "children": [],
+                            "value": 4
+                        },
+                        {
+                            "name": "Anhui",
+                            "children": [],
+                            "value": 2
+                        },
+                        {
+                            "name": "Guangdong",
+                            "children": [],
+                            "value": 5
+                        },
+                        {
+                            "name": "Guangxi",
+                            "children": [],
+                            "value": 1
+                        },
+                        {
+                            "name": "geography (general)",
+                            "children": [],
+                            "value": 1
+                        }
+                    ],
+                    "value": 13
+                }
+            ],
+            "value": 38
+        },
+        {
+            "name": "Myths and Legends",
+            "children": [
+                {
+                    "name": "animal (myth)",
+                    "children": [
+                        {
+                            "name": "dragon",
+                            "children": [],
+                            "value": 13
+                        }
+                    ],
+                    "value": 13
+                },
+                {
+                    "name": "deity (myth)",
+                    "children": [
+                        {
+                            "name": "heavenly deities",
+                            "children": [],
+                            "value": 4
+                        }
+                    ],
+                    "value": 4
+                },
+                {
+                    "name": "person in the Three...",
+                    "children": [
+                        {
+                            "name": "Fuxi (legend)",
+                            "children": [],
+                            "value": 1
+                        }
+                    ],
+                    "value": 1
+                }
+            ],
+            "value": 18
+        }
+    ],
+    "value": 0
+}
